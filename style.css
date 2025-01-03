@@ -38,7 +38,7 @@ body {
 }
 
 .date {
-    margin-right: 30px;
+    margin-right: 20px;
     background-image: url(./img/golden_bg.jpg);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -325,7 +325,7 @@ nav ul li a.active {
     box-shadow: 0 0 1rem rgba(238, 130, 238, 0.373);
 }
 
-@media(min-width: 300px)and (max-width: 768px) {
+@media(max-width: 768px) {
     .intro h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
